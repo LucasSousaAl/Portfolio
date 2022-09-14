@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+:root{
+    --color1: #2e3138;
+    --color2: #1252d1;
+    --color3: #97a2b8;
+    --color4: #1e273b;
+    --color5: #6b7282;
+
+    --font1: 'Libre Baskerville', serif;
+    --font2: 'Kanit', sans-serif;
+}
