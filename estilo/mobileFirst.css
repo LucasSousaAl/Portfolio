@@ -34,11 +34,12 @@ body{
 
 header{
     width: 99vw;
+    height: fit-content;
+    border-bottom: 4px solid #1252d1;
 }
 .introducao{
-    position: absolute;
-    left: 150px;
-    top: 80px;
+    display: inline-block;
+    transform: translate(0px,-30px);
     width: 55vw;
     font-family: var(--font1);
     color: white;
@@ -55,12 +56,9 @@ header{
 }
 
 
-.redes-sociais {
-    margin-left: 8px;
-    display: block;
-    position: absolute;
-    top: 230px;
-    left: 10px;
+picture > .redes-sociais {
+    margin-top: 20px;
+    text-align: center;
 }
 
 
@@ -69,7 +67,7 @@ header{
 
 picture{
     display: inline-block;
-    position: absolute;
+    position: static;
     width: 30vw;
     height: 30vw;
     border: 3px solid var(--color2);
@@ -91,9 +89,7 @@ picture > div.imagem-eu{
 
 
 img{
-    
-    position: absolute;
     width: 30vw;
-    height: 20vh;
+    height: 30vw;
     border-radius: 50%;
 }
