@@ -71,7 +71,7 @@ picture{
     display: inline-block;
     position: absolute;
     width: 30vw;
-    height: 16vh;
+    height: 30vw;
     border: 3px solid var(--color2);
     border-radius: 50%;
     padding: 5px;
@@ -83,7 +83,7 @@ picture{
 
 picture > div.imagem-eu{
     width: 30vw;
-    height: 16vh;
+    height: 30vw;
     border-radius: 50%;
     background: black url(../images/EU.png) no-repeat center center;
     background-size: contain;
