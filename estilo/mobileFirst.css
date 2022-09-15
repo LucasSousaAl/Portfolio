@@ -4,8 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 :root{
-    --color1: #2e3138;
+    --color1: #18191d;
     --color2: #1252d1;
     --color3: #97a2b8;
     --color4: #1e273b;
@@ -13,4 +18,70 @@
 
     --font1: 'Libre Baskerville', serif;
     --font2: 'Kanit', sans-serif;
+}
+
+.cheguei{
+    color: white;
+    font-family: var(--font1);
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid var(--color2);
+}
+
+body{
+    background-color: var(--color1);
+}
+
+header{
+    width: 99vw;
+}
+.introducao{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    width: 55vw;
+    font-family: var(--font1);
+    color: white;
+}
+.introducao h1{
+    text-shadow: 0px 0px 2px #18191d;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+}
+.introducao p{
+    color: white;
+    font-size: 0.8em;
+ 
+}
+
+
+.redes-sociais {
+    margin-left: 8px;
+    display: block;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+}
+
+
+
+
+picture{
+    display: inline-block;
+    position: absolute;
+    width: 30vw;
+    height: 20vh;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 1px 1px 3px #2e3138;
+    margin: 10px;
+}
+
+img{
+    
+    position: absolute;
+    width: 30vw;
+    height: 20vh;
+    border-radius: 50%;
 }
