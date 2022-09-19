@@ -30,16 +30,24 @@
 
 body{
     background-color: var(--color1);
+    
+    
+    
+}
+.inner{
+    display: block;
+    width: 88vw;
+    margin: auto;
 }
 
 header{
-    width: 99vw;
+    
     height: fit-content;
 }
 .introducao{
     display: inline-block;
     transform: translate(0px,-30px);
-    width: 55vw;
+    width: 45vw;
     font-family: var(--font2);
     color: white;
 }
@@ -97,20 +105,18 @@ img{
 
 span#burguer{
     padding-top: 5px ;
-cursor: pointer;
+    cursor: pointer;
 }
 #burguer{
     color: white;
-    width: 100vw;
+    width: 88vw;
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
     
 }
 
-menu{
-    width: 100vw;
-}
+
 menu a{
     font-family: var(--font2);
     text-decoration: none;
@@ -132,7 +138,6 @@ li{
 }
 .decoracao{
     height: 5px;
-    width: 95vw;
     margin: auto;
     border-bottom: 2px solid var(--color2);
 }
@@ -140,17 +145,29 @@ h2{
     color: white;
     font-family: var(--font2);
     margin: 10px 30px;
+    width: fit-content;
+    border-bottom: 1px solid #6b7282;
 
 }
-article{
-    margin: 20px;
-}
-.icon{
+
+.icon-tec{
     color: var(--color2);
     font-size: 4em;
+    padding-bottom: 10px;
+    
 }
 .content{
     font-family: var(--font2);
     color: white;
 
+}
+article > svg{
+    width: 4em;
+    height: 4em;
+}
+#tecnologia{
+    border-bottom: 2px solid var(--color2);
+}
+article{
+    margin: 30px 0px;
 }
