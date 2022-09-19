@@ -97,12 +97,6 @@ picture > div.imagem-eu{
 }
 
 
-img{
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-}
-
 span#burguer{
     padding-top: 5px ;
     cursor: pointer;
@@ -147,13 +141,14 @@ h2{
     margin: 10px 30px;
     width: fit-content;
     border-bottom: 1px solid #6b7282;
-
+    text-shadow: 0px 0px 1px black;
 }
 
 .icon-tec{
     color: var(--color2);
     font-size: 4em;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
     
 }
 .content{
@@ -170,4 +165,47 @@ article > svg{
 }
 article{
     margin: 30px 0px;
+}
+#projetos> article{
+    display: inline-block;
+    
+}
+
+.decoracao2{
+    border-bottom: 2px solid var(--color3);
+}
+#projetos> article > img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgba(15, 23, 51, 0.486);
+}
+#mais{
+    width: 100%;
+    margin-top: -5px;
+    font-family: var(--font2);
+}
+#mais a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+#mais a:hover{
+    color: var(--color5);
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--color4);
+    padding: 20px;
+    font-family: var(--font2);
+    
+}
+footer p{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    color:var(--color3);
 }
