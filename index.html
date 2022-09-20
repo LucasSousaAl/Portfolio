@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="estilo/mobileFirst.css">
+    <link rel="stylesheet" href="estilo/other.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="images/icons8-programming-material-filled-16.png" type="image/x-icon">
 
 </head>
  
 
-<body>
+<body onresize="mudouTamanho()">
     <div class="inner">
       <main>
           <header>
@@ -56,7 +57,7 @@
                 <span class="material-symbols-rounded" id="burguer" onclick="abreMenu()">menu</span>
                 <ul id="itens">
                   <li><a href="#">Certificados</a></li>
-                  <li><a href="#">Projetos</a></li>
+                  <li><a href="https://github.com/LucasSousaAl?tab=repositories">Projetos</a></li>
                   <li><a href="#">Contato</a></li>
                   <li><a href="#">Sobre</a></li>
                 </ul>
@@ -67,49 +68,51 @@
         <section id="tecnologia">
       <h2>Tecnologias</h2>
             <article>
-              <i class="fa-brands fa-python icon-tec"></i>
+              <div class="icon-tec"><i class="fa-brands fa-python "></i></div>
               <div class="content">
                 <h3>Python</h3>
                 <p>Devido a interesse pessoal, fiz cursos de programação com Python, tendo experiência tanto teórica como pratica. </p>
               </div>
             </article>
             <article>
-              <i class="fa-brands fa-java icon-tec" ></i>
+              <div class="icon-tec"><i class="fa-brands fa-java" ></i></div>
               <div class="content">
                 <h3>Java</h3>
                 <p>Possuo experiência teórica e prática com programação em Java devido a estudos na faculdade onde estudo. </p>
               </div>
             </article>
             <article>
-              <i class="fa-brands fa-js icon-tec"></i>
+              <div class="icon-tec"><i class="fa-brands fa-js "></i></div>
               <div class="content">
                 <h3>Java Script</h3>
                 <p>Devido a interesse pessoal, estou fazendo curso de programação com JavaScript para garantir uma experiência tanto teórica como prática.</p>
               </div>
             </article>
             <article>
-              <i class="fa-brands fa-git-alt icon-tec"></i>
+              <div class="icon-tec"><i class="fa-brands fa-git-alt "></i></div>
               <div class="content">
                 <h3>Git</h3>
                 <p>Devido a interesse pessoal, e para garantir experiência em versionamento de código para os projetos, fiz curso Git e GitHub.</p>
               </div>
             </article>
             <article>
-              <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 128 128"><path fill="#1252d1" d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-53.5 55c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5z" class="color03599C svgShape icon-tec"/></svg>
+              <div class="icon-tec">
+                <svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 128 128"><path fill="#1252d1" d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-53.5 55c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5z" class="color03599C svgShape "/></svg>
+              </div>
               <div class="content">
                 <h3>Linguagem C</h3>
                 <p>Devido a disciplina na faculdade de linguagem de programação C, possuo experiencia tanto prática como teórica da linguagem C, tendo um projeto já finalizado </p>
               </div>
             </article>
             <article>
-              <i class="fa-brands fa-html5 icon-tec"></i>
+              <div class="icon-tec"><i class="fa-brands fa-html5"></i></div>
               <div class="content">
                 <h3>HTML5</h3>
                 <p>Devido a interesse pessoal, fiz cursos de HTML5, tendo experiência tanto teórica como prática, sendo este portifólio um dos projetos.</p>
               </div>
             </article>
             <article>
-              <i class="fa-brands fa-css3-alt icon-tec"></i>
+              <div class="icon-tec"><i class="fa-brands fa-css3-alt"></i></div>
               <div class="content">
                 <h3>CSS3</h3>
                 <p>Devido a interesse pessoal, fiz cursos de CSS3, tendo experiência tanto teórica como prática, sendo este portifólio um dos projetos.</p>
@@ -119,7 +122,7 @@
         <section id="projetos">
       <h2>Projetos</h2>
       <article>
-        <img src="images/projeto-frogger.png" alt="projeto Frogger">
+        <a href=""><img src="images/frogger.png"  class="frog" alt="projeto Frogger"></a>
         <div class="content">
           <h3>Frogger Game</h3>
           <p>Trabalho da disciplina Programação C de recriação do jogo de Atari Frogger com a biblioteca Allegro5</p>
@@ -127,23 +130,23 @@
       </article>
       <div class="decoracao2"></div>
       <article>
-        <img src="images/projeto-login.png" alt="projeto-login">
+        <a href="#"><img src="images/projeto-login2.png" alt="projeto-login"></a>
         <div class="content">
           <h3>Projeto Login</h3>
           <p>Projeto final do curso de HTML5 e CSS3 do curso em video com Media Query.</p>
         </div>
       </article>
 
-      <article id="mais">
+      <div id="mais">
         <a href="#">
-          <h3>Ver mais</h3>
+          <input type="button" value="VER MAIS PROJETOS">
         </a>
-      </article>
+      </div>
 
         </section>
        </div>
           <footer>
-            <p>Obrigado pro visitar meu portifolio!</p>
+            <p>Obrigado pro visitar meu portifólio!</p>
           </footer>
       </main>
     
@@ -164,6 +167,7 @@
               itens.style.display = 'none'
           }
       }
+      
       
     </script>
     <script src="https://kit.fontawesome.com/d6c89de17a.js" crossorigin="anonymous"></script> 

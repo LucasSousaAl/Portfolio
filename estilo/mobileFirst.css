@@ -46,7 +46,7 @@ header{
 }
 .introducao{
     display: inline-block;
-    transform: translate(0px,-30px);
+    transform: translate(0px,-10vw);
     width: 45vw;
     font-family: var(--font2);
     color: white;
@@ -72,7 +72,10 @@ picture > .redes-sociais {
     stroke: #0f3e9b;
 }
 
-
+svg.icon {
+    width: 22%;
+    height: 22%;
+}
 
 picture{
     display: inline-block;
@@ -120,15 +123,18 @@ menu a{
 }
 #itens{
     display: none;
+    margin-bottom: 20px;
 }
 
 menu a:hover{
-    background-color: var(--color4);
-    border-radius: 10px;
+    
+    border-bottom: 1px solid var(--color2);
+    transition: 0.5s;
 }
 li{
     text-align: center;
     padding: 8px 0px;
+    list-style: none;
 }
 .decoracao{
     height: 5px;
@@ -149,16 +155,16 @@ h2{
     font-size: 4em;
     margin-bottom: 10px;
     
-    
 }
 .content{
     font-family: var(--font2);
     color: white;
+    display: inline-block;
 
 }
-article > svg{
-    width: 4em;
-    height: 4em;
+.icon-tec svg {
+    width: 0.9em;
+    height: 1em;
 }
 #tecnologia{
     border-bottom: 2px solid var(--color2);
@@ -174,27 +180,48 @@ article{
 .decoracao2{
     border-bottom: 2px solid var(--color3);
 }
-#projetos> article > img{
+#projetos> article {
+    text-align: center;
+}
+#projetos> article > .content{
+    text-align: left;
+}
+
+#projetos> article > a > img.frog{
+    width: 323px;
+    
+}
+
+#projetos> article > a > img{
     width: 100%;
-    height: 80%;
     border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(15, 23, 51, 0.486);
 }
+
 #mais{
     width: 100%;
     margin-top: -5px;
     font-family: var(--font2);
-}
-#mais a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.7em;
     text-align: center;
-
+    margin-bottom: 20px;
 }
-#mais a:hover{
-    color: var(--color5);
-    text-decoration: underline;
+
+#mais > a > input{
+    margin-left: auto;
+    margin-right: auto;
+    color: #0f3e9b;
+    background-color: #97a2b8;
+    border: 2px solid #0f3e9b;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 0.8em;
+    
+}
+#mais > a > input:hover{
+    background-color: white;
+    transition: 0.3s;
 }
 
 footer{

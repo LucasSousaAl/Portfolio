@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 480px) and (min-width: 980px) {
+    .content{
+        display: inline-block;
+        width: 70vw;
+        margin-left: 20px;
+    }
+    
+    article > .icon-tec{
+        display: inline-block;
+    }
+   
+}
+@media screen and (min-width: 550px){
+    svg.icon {
+        width: 36px;
+        height: 36px;
+    }
+    .introducao{
+        margin-left: 20px;
+        transform: translate(0px,-20vw);
+    }
+}
+
+@media screen and (min-width: 900px){
+    #projetos  article{
+        display: inline-block;
+        width: 40vw;
+        height: 470px;
+    }
+    #projetos  article .content{
+        width: 380px;
+    }
+    .decoracao2{
+        border-bottom: none;
+        display: inline-block;
+        height: 480px;
+        border-right: 2px solid var(--color3);
+        margin-right: 30px;
+    }
+    section#projetos{
+        text-align: center;
+    }
+    #mais{
+        height: 100px;
+    }
+    #mais > a > input{
+        font-size: 1.3em;
+    }
+    
+}
+
+@media screen and (min-width: 980px){
+    
+    .introducao {
+        font-size: 2em;
+    }
+    picture{
+        width: 296px;
+        height: 296px;    
+    }
+    picture > div.imagem-eu{
+        width: 296px;
+        height: 296px;
+    }
+    #tecnologia > article{
+        width: 40vw;
+        display: inline-block;
+        margin: 15px;
+    }
+    #tecnologia > article > i{
+        display: inline-block;
+    }
+    
+    #tecnologia > article > .content{
+        display: inline-block;
+        width: 30vw;
+        margin-left: 20px;
+    }
+    article > .icon-tec{
+        display: inline-block;
+    }
+    .introducao{
+        margin-left: 20px;
+        transform: translate(0px,-10vw);
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+    #itens{
+        display: block;
+        text-align: right;
+    }
+    menu >ul >li{
+        display: inline-block;
+        margin-right: 20px ;
+    }
+    menu a{
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #projetos> article > a > img.frog{
+        width:25vw;
+    }
+    #mais{
+        margin-top: 80px;
+    }
+    .decoracao2{
+        height: 36vw;
+    }
+}
