@@ -185,17 +185,25 @@ article{
 }
 #projetos> article > .content{
     text-align: left;
+    margin-top: 30px;
 }
 
 #projetos> article > a > img.frog{
     width: 323px;
     
 }
+#projetos> article > a > img:hover{
+    -moz-transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    -ms-transform: scale(1.075);
+    transform: scale(1.075);
+}
 
 #projetos> article > a > img{
     width: 100%;
     border-radius: 10px;
     box-shadow: 0px 0px 6px rgba(15, 23, 51, 0.486);
+    
 }
 
 #mais{
