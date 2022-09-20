@@ -225,6 +225,7 @@ article{
     font-family: var(--font2);
     font-weight: bold;
     font-size: 0.8em;
+    cursor: pointer;
     
 }
 #mais > a > input:hover{
